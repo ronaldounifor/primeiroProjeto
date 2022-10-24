@@ -12,7 +12,7 @@ app.get("/login", function(request, response ){
     let nome = request.query.nome;
     let sobrenome = request.query.sobrenome;
     if(nome == undefined) {
-        response.end("Seja bem-vindo(a) usuario!");
+        response.end("Seja bem-vindo(a) amigo(a)!");
     } else {
         response.end("Seja bem-vindo(a) " + sobrenome + ", " + nome + "!");
     }
